@@ -1,10 +1,12 @@
 # follow-my-cursor
 
-### Move your cursor over any link on the page and it will highlight it, even after scrolling down
+### Smooth link highlighting based on a user's mouse hover
 
-Live: 
+Live: https://genadikozarev.github.io/follow-my-cursor/
 
-Preview: 
+Preview:
+
+<img width="1471" alt="follow-my-cursor-preview" src="https://github.com/user-attachments/assets/c5fa4f8b-ff8c-4334-95f0-3eb160380523">
 
 Keywords:
 - [Element: getBoundingClientRect() method](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
