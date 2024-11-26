@@ -2,5 +2,69 @@ html {
     font-family: 'Faculty Glyphic', 'Trebuchet MS', Arial, sans-serif;
     font-size: 10px;
     box-sizing: border-box;
-    background: rgb(91, 197, 155);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(
+            225deg,
+            rgba(13, 242, 89, 0.549) 10%,
+            rgba(13, 242, 89, 0) 80%
+        ),
+        linear-gradient(135deg, rgb(6, 67, 249) 10%, rgba(6, 67, 249, 0) 80%),
+        linear-gradient(
+            45deg,
+            rgba(255, 26, 102, 0.631) 0%,
+            rgba(255, 26, 102, 0) 70%
+        );
+}
+
+.menu {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 10rem 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.07);
+    border-radius: 0.4rem;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0 2rem;
+    font-size: 2rem;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 80rem;
+    font-size: 1.5rem;
+    line-height: 2;
+    position: relative;
+}
+
+.highlight {
+    border-bottom: 0.2rem solid rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    display: block;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s;
 }
